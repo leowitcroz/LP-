@@ -12,13 +12,13 @@
       <div class="row">
         <div class="col-lg-6">
           <img
-            src="../assets/Pharmacy-Illustration.png"
+            src="../assets/image3.jpg"
             alt=""
             style="width: 100%; margin-top: 10%"
           />
         </div>
         <div class="col-lg-6">
-          <h1 class="title">Aulas Particulares e Avulsas</h1>
+          <h1 class="title">TRADUÇÕES & VERSÕES</h1>
           <div class="box">
             <div class="card" v-for="(item, key) in card_texts" :key="key">
               <p class="card-text">
@@ -39,13 +39,13 @@ export default {
   setup() {
     const card_texts = ref([
       {
-        text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facere nam distinctio consequuntur nulla dolor sint sed odio non quia rem molestias at aut repellat, obcaecati mollitia atque, error quos",
+        text: "Traduções e versões dos idiomas: Português, Inglês e Espanhol",
       },
       {
-        text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facere nam distinctio consequuntur nulla dolor sint sed odio non quia rem molestias at aut repellat, obcaecati mollitia atque, error quos",
+        text: "Traduções e versão confiáveis, feitas por profissionais com formação, competência e experiência para garantir a adaptabilidade, mas sem perder a fidelidade ao texto original. ",
       },
       {
-        text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facere nam distinctio consequuntur nulla dolor sint sed odio non quia rem molestias at aut repellat, obcaecati mollitia atque, error quos",
+        text: "Prazo de entrega e qualidade levados muito a sério. Fique tranquilo em relação à qualidade do serviço e prazo de entrega.",
       },
     ]);
 
@@ -70,5 +70,8 @@ export default {
   margin-top: 5%;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
+}
+.card-text{
+  font-size: 20px;
 }
 </style>

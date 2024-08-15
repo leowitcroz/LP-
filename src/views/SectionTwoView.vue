@@ -4,20 +4,35 @@
       <div style="background-color: #0077b6; padding: 5%">
         <div class="row">
           <div class="section">
-            <h2 class="title">O que você vai aprender</h2>
+            <h1 class="title">
+              PROGRAMAS DE ACELERAÇÃO & DEMANDAS ESPECÍFICAS
+            </h1>
             <div class="boxes">
               <div
                 class="card col-lg-4"
                 v-for="(item, key) in card_texts"
                 :key="key"
-                style="width: 27%; padding: 10px; background-color: #8e44ad; color: whitesmoke; font-size: 18px;"
+                style="
+                  width: 27%;
+                  padding: 12px;
+                  background-color: #8e44ad;
+                  color: whitesmoke;
+                  font-size: 22px;
+                "
               >
-                <div class="card-body">
+                <div
+                  class="card-body"
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
                   <p class="card-text">{{ item.text }}</p>
                 </div>
               </div>
             </div>
-            <button class="btn">Quero começar agora</button>
+            <button class="btn">Clique aqui para saber mais</button>
           </div>
         </div>
       </div>
@@ -32,13 +47,13 @@ export default {
   setup() {
     const card_texts = ref([
       {
-        text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facere nam distinctio consequuntur nulla dolor sint sed odio non quia rem molestias at aut repellat, obcaecati mollitia atque, error quos",
+        text: " Você precisa dar um UP no seu Inglês em pouco tempo? ",
       },
       {
-        text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facere nam distinctio consequuntur nulla dolor sint sed odio non quia rem molestias at aut repellat, obcaecati mollitia atque, error quos",
+        text: " Precisa de um HELP específico para uma apresentação, viagem ou entrevista de trabalho?",
       },
       {
-        text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis facere nam distinctio consequuntur nulla dolor sint sed odio non quia rem molestias at aut repellat, obcaecati mollitia atque, error quos",
+        text: " Aqui é onde você encontrará a solução para a sua necessidade atual.",
       },
     ]);
 

@@ -3,10 +3,15 @@
     <nav class="navbar">
       <div class="container-fluid" style="background-color: #005583">
         <ul>
-          <li><a @click="scrollToSection('sectionOne')">Sessão 1</a></li>
-          <li><a @click="scrollToSection('sectionTwo')">Sessão 2</a></li>
-          <li><a @click="scrollToSection('sectionThree')">Sessão 3</a></li>
-          <li><a @click="scrollToSection('sectionFour')">Sessão 4</a></li>
+          <li>
+            <a @click="scrollToSection('sectionOne')"
+              >AULAS PARTICULARES
+            </a>
+          </li>
+          <li><a @click="scrollToSection('sectionTwo')">PROGRAMAS DE ACELERAÇÃO</a></li>
+          <li><a @click="scrollToSection('sectionThree')">TRADUÇÃO </a></li>
+          <li><a @click="scrollToSection('sectionFour')">PROFISSIONAIS DA INDÚSTRIA FARMACÊUTICA </a></li>
+          <li><a @click="scrollToSection('sectionFour')">GLOSSÁRIO </a></li>
         </ul>
       </div>
     </nav>
@@ -59,6 +64,7 @@ nav ul li a {
   text-decoration: none;
   color: white !important  ;
   font-weight: bold;
+  font-size: 14px;
 }
 
 nav ul li a:hover {

@@ -10,15 +10,22 @@
       "
     >
       <div class="row">
-        <div class="title col-lg-6">
-          <h1>
-            Domine o Inglês para Impulsionar Sua Carreira na Indústria
-            Farmacêutica
-          </h1>
+        <div class="mainBox col-lg-6">
+          <h1 class="title">AULAS PARTICULARES & MENTORIA</h1 >
+          <div class="card text">
+            <h3 style="margin-bottom: 3%; margin-top: 1%; font-size: 1.8rem;">
+              Aprenda ou aprimore seu Inglês da<br> melhor forma:
+            </h3>
+            <li>AULAS PARTICULARES AO VIVO</li>
+            <li>PROGRAMA DE MENTORIA</li>
+            <li style="text-align: left;">INGLÊS PERSONALIZADO DE ACORDO<br><span style="margin-left: 7%;">COM SUA NECESSIDADE</span></li>
+            <li style="margin-bottom: 1%">HORÁRIOS FLEXÍVEIS</li>
+          </div>
+          <button class="btn">Clique aqui para um plano de ação de Inglês específico para você </button>
         </div>
         <div class="col-lg-6">
           <img
-            src="../assets/Tiny pharmacist with pills and vitamins flat vector illustration.jpg"
+            src="../assets/University-Students-Illustration.jpg"
             alt=""
             style="width: 100%; margin-top: 10%"
           />
@@ -61,22 +68,65 @@ export default {
   padding: 20px;
   border-radius: 100%;
 }
-.logoTitle {
+.logomainBox {
   font-size: 5rem;
 }
 
-.title {
+.btn {
+  margin-top: 5%;
+  background-color: #34a853;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14.5px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+.btn:hover {
+  text-decoration: underline;
+  background-color: #3ca558;
+  color: #ffffff;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: baseline;
+
+  margin-top: 5%;
+}
+.text li {
+  margin-top: 2%;
+  font-size: 1.4rem;
+}
+
+.mainBox {
   font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 3%;
+  margin-top:5% ;
+}
+
+.title{
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .card {
-  padding: 3%;
+  padding: 5%;
   background-color: #8e44ad;
-  margin-top: 5%;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
 }
