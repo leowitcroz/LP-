@@ -11,7 +11,7 @@
           <li><a @click="scrollToSection('sectionTwo')">PROGRAMAS DE ACELERAÇÃO</a></li>
           <li><a @click="scrollToSection('sectionThree')">TRADUÇÃO </a></li>
           <li><a @click="scrollToSection('sectionFour')">PROFISSIONAIS DA INDÚSTRIA FARMACÊUTICA </a></li>
-          <li><a @click="scrollToSection('sectionFour')">GLOSSÁRIO </a></li>
+          <li><a @click="scrollToSection('sectionFive')">GLOSSÁRIO </a></li>
         </ul>
       </div>
     </nav>
@@ -20,6 +20,7 @@
     <SectionTwoView />
     <SectionThreeView />
     <SectionFourView />
+    <SectionFiveView/>
   </div>
 </template>
   
@@ -28,6 +29,7 @@ import SectionOneView from "./SectionOneView.vue";
 import SectionTwoView from "./SectionTwoView.vue";
 import SectionThreeView from "./SectionThreeView.vue";
 import SectionFourView from "./SectionFourView.vue";
+import SectionFiveView from "./SectionFiveView.vue";
 
 function scrollToSection(sectionId: string) {
   const section = document.getElementById(sectionId);
