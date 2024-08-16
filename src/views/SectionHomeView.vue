@@ -7,11 +7,12 @@
         padding-right: 5%;
         padding-top: 3%;
         padding-bottom: 5%;
+        background-color: whitesmoke;
       "
     >
       <div class="row">
+        <h1 class="title">AULAS PARTICULARES DE INGLÊS & MENTORIA</h1 >
         <div class="mainBox col-lg-6">
-          <h1 class="title">AULAS PARTICULARES & MENTORIA</h1 >
           <div class="card text">
             <h3 style="margin-bottom: 3%; margin-top: 1%; font-size: 1.8rem;">
               Aprenda ou aprimore seu Inglês da<br> melhor forma:
@@ -19,15 +20,15 @@
             <li>AULAS PARTICULARES AO VIVO</li>
             <li>PROGRAMA DE MENTORIA</li>
             <li style="text-align: left;">INGLÊS PERSONALIZADO DE ACORDO<br><span style="margin-left: 7%;">COM SUA NECESSIDADE</span></li>
-            <li style="margin-bottom: 1%">HORÁRIOS FLEXÍVEIS</li>
+            <li style="margin-bottom: 1%">INGLÊS PARA VIAGENS, NEGÓCIOS ETC</li>
           </div>
           <button class="btn">Clique aqui para um plano de ação de Inglês específico para você </button>
         </div>
         <div class="col-lg-6">
           <img
-            src="../assets/University-Students-Illustration.jpg"
+            src="../assets/office-pana.png"
             alt=""
-            style="width: 100%; margin-top: 10%"
+            style="width: 90%;"
           />
         </div>
       </div>
@@ -63,14 +64,6 @@ export default {
   <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.logo {
-  border: 1px solid red;
-  padding: 20px;
-  border-radius: 100%;
-}
-.logomainBox {
-  font-size: 5rem;
-}
 
 .btn {
   margin-top: 5%;
@@ -115,18 +108,18 @@ export default {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 3%;
-  margin-top:5% ;
 }
 
 .title{
   font-weight: 600;
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 6%;
+  color: rgb(51, 51, 51);
 }
 
 .card {
   padding: 5%;
-  background-color: #8e44ad;
+  background-color: #0077B6;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
 }

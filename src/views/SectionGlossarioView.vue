@@ -7,12 +7,13 @@
         padding-right: 5%;
         padding-top: 3%;
         padding-bottom: 5%;
+        background-color: #0077B6;
       "
     >
       <div class="row">
         <h1 class="title">GLOSSÁRIO – INGLÊS PARA INDÚSTRIA FARMACÊUTICA</h1>
         <div class="mainBox col-lg-6">
-          <img src="../assets/image4.png" alt="" style="width: 100%" />
+          <img src="../assets/tiny.png" alt="" style="width: 100%" />
         </div>
         <div class="col-lg-6">
           <div class="card text">
@@ -63,15 +64,6 @@ export default {
     <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.logo {
-  border: 1px solid red;
-  padding: 20px;
-  border-radius: 100%;
-}
-.logomainBox {
-  font-size: 5rem;
-}
-
 .btn {
   margin-top: 5%;
   background-color: #34a853;
@@ -119,6 +111,7 @@ export default {
   font-weight: 600;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 3%;
+  color: whitesmoke;
 }
 
 .card {

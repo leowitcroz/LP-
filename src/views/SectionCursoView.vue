@@ -24,7 +24,7 @@
             flex-direction: column;
           "
         >
-          <div class="card">
+          <div class="card" style="margin-top: 10%;">
             <p class="card-text">
               O CURSO DE INGLÊS PARA INDÚSTRIA FARMACÊUTICA tem como objetivo
               proporcionar aos profissionais do setor as habilidades necessárias
@@ -32,7 +32,6 @@
               indústria farmacêutica.
             </p>
           </div>
-          <img src="../assets/image1.png" alt="" style="width: 80%" />
           <div class="card">
             <p class="card-text">
               Vocabulário de Garantia e Controle da Qualidade, Pesquisa &
@@ -40,13 +39,6 @@
               muito mais !
             </p>
           </div>
-        </div>
-        <div class="col-lg-6">
-          <img
-            src="../assets/Pharmacy-Illustration.png"
-            alt=""
-            style="width: 80%;"
-          />
           <div class="card">
             <p class="card-text">
               O curso aborda vocabulário específico da indústria, expressões
@@ -55,7 +47,13 @@
               relevantes.
             </p>
           </div>
-          <img src="../assets/tiny.png" alt="" width="80%" />
+        </div>
+        <div class="col-lg-6">
+          <img src="../assets/image1.png" alt="" style="width: 100%" />
+         
+          <button class="btn">
+            Clique aqui para mais informações sobre o curso
+          </button>
         </div>
       </div>
     </div>
@@ -80,10 +78,31 @@ export default {
   letter-spacing: 2px;
 }
 
+.btn {
+  margin-top: 5%;
+  font-size: 20px;
+  background-color: #34a853;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+}
+.btn:hover {
+  text-decoration: underline;
+  background-color: #3ca558;
+  color: #ffffff;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
 .card {
   padding: 3%;
   background-color: #8e44ad;
-  margin-top: 7%;
   margin-bottom: 3%;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;

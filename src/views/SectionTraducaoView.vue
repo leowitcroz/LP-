@@ -7,17 +7,19 @@
         padding-right: 5%;
         padding-top: 3%;
         padding-bottom: 5%;
+        background-color: whitesmoke;
       "
     >
       <div class="row">
         <div class="col-lg-6">
           <img
-            src="../assets/image3.jpg"
+            src="../assets/At_the _office-bro.png"
             alt=""
-            style="width: 100%; margin-top: 10%"
+            style="width: 100%;"
           />
+          
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6" style="margin-top: 3%;">
           <h1 class="title">TRADUÇÕES & VERSÕES</h1>
           <div class="box">
             <div class="card" v-for="(item, key) in card_texts" :key="key">
@@ -66,7 +68,7 @@ export default {
 
 .card {
   padding: 3%;
-  background-color: #8e44ad;
+  background-color: #0077B6;
   margin-top: 5%;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;

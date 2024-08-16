@@ -1,7 +1,7 @@
 <template>
   <section id="sectionTwo">
     <div class="container-fluid" style="padding: 0%">
-      <div style="background-color: #0077b6; padding: 5%">
+      <div style="background-color: whitesmoke; padding: 5%">
         <div class="row">
           <div class="section">
             <h1 class="title">
@@ -15,7 +15,7 @@
                 style="
                   width: 27%;
                   padding: 12px;
-                  background-color: #8e44ad;
+                  background-color: #0077B6;
                   color: whitesmoke;
                   font-size: 22px;
                 "
@@ -66,7 +66,7 @@ export default {
   
   <style scoped>
 .title {
-  color: whitesmoke;
+  color: rgb(51, 51, 51);
   font-weight: 600;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -88,10 +88,9 @@ export default {
   font-size: 20px;
   font-weight: bold;
   padding: 13px 32px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #3d768a;
 }
 .btn:hover {
+  text-decoration: underline;
   background-color: #3ca558;
   color: #ffffff;
 }
