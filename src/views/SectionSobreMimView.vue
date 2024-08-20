@@ -77,13 +77,13 @@
             src="../assets/profile.jpeg"
             alt=""
             style="
-              width: 60%;
+              width: 70%;
               margin-top: 4%;
               border-radius: 10px;
               border: 3px solid #8e44ad;
             "
           />
-          <div class="card" style="background-color: #3ca558; width: 60%; padding: 10px;">
+          <div class="card" style="background-color: #3ca558; width: 70%; padding: 10px;margin-top: 7%;">
            <h5 style="padding-top: 5px;"> Você me encontra nos canais abaixo:</h5>
            <ul style="text-align: left; margin-top: 5%;">
             <li><a style="color: whitesmoke;" href="https://www.linkedin.com/in/teachersimone/">https://www.linkedin.com/in/teachersimone/</a></li>
