@@ -83,8 +83,8 @@
               border: 3px solid #8e44ad;
             "
           />
-          <div class="card" style="background-color: #3ca558; width: 60%;">
-           <h5> Você me encontra nos canais abaixo:</h5>
+          <div class="card" style="background-color: #3ca558; width: 60%; padding: 10px;">
+           <h5 style="padding-top: 5px;"> Você me encontra nos canais abaixo:</h5>
            <ul style="text-align: left; margin-top: 5%;">
             <li><a style="color: whitesmoke;" href="https://www.linkedin.com/in/teachersimone/">https://www.linkedin.com/in/teachersimone/</a></li>
             <li><a style="color: whitesmoke;" href="https://www.instagram.com/sc_idiomas/">https://www.instagram.com/sc_idiomas/</a> </li>
