@@ -26,7 +26,7 @@
         </div>
         <div class="col-lg-6">
           <img
-            src="../assets/office-pana.png"
+            src="../assets/pana.png"
             alt=""
             style="width: 90%;"
           />

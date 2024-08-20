@@ -13,7 +13,7 @@
       <div class="row">
         <div class="col-lg-6">
           <img
-            src="../assets/At_the _office-bro.png"
+            src="../assets/bro.png"
             alt=""
             style="width: 100%;"
           />
