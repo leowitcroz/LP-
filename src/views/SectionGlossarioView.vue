@@ -7,7 +7,9 @@
         padding-right: 5%;
         padding-top: 3%;
         padding-bottom: 5%;
-        background-color: #0077B6;
+        border-top: 2px solid #0077b6;
+        border-bottom: 2px solid #0077b6;
+        background-color: whitesmoke;
       "
     >
       <div class="row">
@@ -111,7 +113,7 @@ export default {
   font-weight: 600;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 3%;
-  color: whitesmoke;
+  color: rgb(51, 51, 51);
 }
 
 .card {

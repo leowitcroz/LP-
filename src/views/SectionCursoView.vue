@@ -7,7 +7,9 @@
         padding-right: 5%;
         padding-top: 3%;
         padding-bottom: 5%;
-        background-color: #0077b6;
+        border-top: 2px solid #0077b6;
+        border-bottom: 2px solid #0077b6;
+        background-color: whitesmoke;
         padding: 5%;
       "
     >
@@ -73,7 +75,7 @@ export default {
 .title {
   font-weight: 600;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: whitesmoke;
+  color: rgb(51, 51, 51);
   text-align: center;
   letter-spacing: 2px;
 }

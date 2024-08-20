@@ -5,14 +5,15 @@
         <ul>
           <li>
             <a @click="scrollToSection('sectionOne')"
-              >AULAS PARTICULARES
+              >AULAS PARTICULARES DE INGLÊS
             </a>
           </li>
-          <li><a @click="scrollToSection('sectionTwo')">PROGRAMAS DE ACELERAÇÃO</a></li>
-          <li><a @click="scrollToSection('sectionFour')">PROFISSIONAIS DA INDÚSTRIA FARMACÊUTICA </a></li>
-          <li><a @click="scrollToSection('sectionFive')">GLOSSÁRIO </a></li>
+          <li><a @click="scrollToSection('sectionTwo')">PROGRAMAS DE ACELERAÇÃO DE INGLÊS</a></li>
+          <li><a @click="scrollToSection('sectionFour')">INGLÊS PARA PROFISSIONAIS DA INDÚSTRIA FARMACÊUTICA </a></li>
+          <li><a @click="scrollToSection('sectionFive')">GLOSSÁRIO DE INGLÊS </a></li>
           <li><a @click="scrollToSection('sectionThree')">TRADUÇÃO </a></li>
         </ul>
+        <img width="5%" src="../assets/Logo_.png" alt="" style="margin-top: 7px; margin-right: 10px; margin-bottom: 7px;">
       </div>
     </nav>
 
@@ -71,7 +72,7 @@ nav ul li a {
   text-decoration: none;
   color: white !important  ;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 nav ul li a:hover {

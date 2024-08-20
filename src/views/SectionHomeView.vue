@@ -17,10 +17,10 @@
             <h3 style="margin-bottom: 3%; margin-top: 1%; font-size: 1.8rem;">
               Aprenda ou aprimore seu Inglês da<br> melhor forma:
             </h3>
-            <li>AULAS PARTICULARES AO VIVO</li>
-            <li>PROGRAMA DE MENTORIA</li>
-            <li style="text-align: left;">INGLÊS PERSONALIZADO DE ACORDO<br><span style="margin-left: 7%;">COM SUA NECESSIDADE</span></li>
-            <li style="margin-bottom: 1%">INGLÊS PARA VIAGENS, NEGÓCIOS ETC</li>
+            <li>Aulas Particulares Ao Vivo</li>
+            <li>Programa De Mentoria</li>
+            <li style="text-align: left;">Inglês Personalizado De Acordo<br><span style="margin-left: 9%;">Com Sua Necessidade</span></li>
+            <li style="margin-bottom: 1%">Inglês para viagens, Negócios e Etc</li>
           </div>
           <button class="btn">Clique aqui para um plano de ação de Inglês específico para você </button>
         </div>
