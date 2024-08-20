@@ -22,6 +22,7 @@
     <SectionAceleracaoView />
     <SectionGlossarioView/>
     <SectionTraducaoView />
+    <SectionSobreMimView/>
 
     <footer style="background-color: #005583">
       <p class="copyrights" >Icon made by Pixel perfect from <a href="https://storyset.com/work">Work illustrations by Storyset</a></p>
@@ -36,6 +37,7 @@ import SectionAceleracaoView from "./SectionAceleracaoView.vue";
 import SectionTraducaoView from "./SectionTraducaoView.vue";
 import SectionCursoView from "./SectionCursoView.vue";
 import SectionGlossarioView from "./SectionGlossarioView.vue";
+import SectionSobreMimView from "./SectionSobreMimView.vue";
 
 function scrollToSection(sectionId: string) {
   const section = document.getElementById(sectionId);

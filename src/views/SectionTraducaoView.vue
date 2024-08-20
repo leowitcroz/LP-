@@ -6,7 +6,8 @@
         padding-left: 5%;
         padding-right: 5%;
         padding-top: 3%;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
+        border-bottom: 2px solid #0077b6;
         background-color: whitesmoke;
       "
     >
