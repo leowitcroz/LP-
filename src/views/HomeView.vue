@@ -50,10 +50,10 @@
     <footer style="background-color: #005583">
       <p class="copyrights">
         Icon made by Pixel perfect from
-        <a href="https://storyset.com/work">Work illustrations by Storyset</a>
+        <a href="https://storyset.com/work" style="color: whitesmoke;">Work illustrations by Storyset</a>
       </p>
       <p class="copyrights">
-        <a
+        <a style="color: whitesmoke;"
           href="https://www.freepik.com/free-vector/tiny-pharmacist-with-pills-vitamins-flat-vector-illustration-doctors-writing-prescriptions-antibiotics-working-together-helping-patients-cure-pharmacy-business-drugstore-concept_24644990.htm#query=pharmacy%20illustration&position=9&from_view=keyword&track=ais_hybrid&uuid=a399f5fb-3c8c-4c54-93d9-8cc26387ac94"
           >Image by pch.vector</a
         >
@@ -126,6 +126,10 @@ footer {
 @media only screen and (max-width: 767px) {
   .navbar {
     display: none;
+  }
+
+  .copyrights{
+    font-size: 10px;
   }
 }
 

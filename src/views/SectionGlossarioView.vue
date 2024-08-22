@@ -13,7 +13,7 @@
       "
     >
       <div class="row">
-        <h1 class="title">GLOSSÁRIO – INGLÊS PARA INDÚSTRIA FARMACÊUTICA</h1>
+        <h1 class="title"><a class="link_1" href=""> INGLÊS PARA INDÚSTRIA FARMACÊUTICA</a>  & <a class="link_2" href="">GLOSSÁRIO</a> </h1>
         <div class="mainBox col-lg-6">
           <img class="img" src="../assets/tiny.png" alt="" style="width: 100%" />
         </div>
@@ -100,6 +100,25 @@ export default {
   text-align: left;
   font-size: 20px;
   margin-top: 15%;
+}
+
+.link_1{
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+
+.link_1:hover{
+  text-decoration: underline;
+  color: #0077B6;
+}
+
+.link_2{
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+.link_2:hover{
+  color: #3ca558;
+  text-decoration: underline;
 }
 
 .mainBox {
