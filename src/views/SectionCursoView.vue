@@ -121,10 +121,6 @@ export default {
     font-size: 13px;
   }
 
-.img{
-  display: none;
-}
-
 .btn{
   font-size: 10px;
   margin-bottom: 3%;

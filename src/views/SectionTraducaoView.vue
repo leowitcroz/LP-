@@ -89,9 +89,6 @@ export default {
     margin-bottom: 3%;
   }
 
-  .img {
-    display: none;
-  }
 
   .btn {
     font-size: 10px;

@@ -139,9 +139,6 @@ export default {
   margin-bottom: 3%;
 }
 
-.img{
-  display: none;
-}
 
 }
 
