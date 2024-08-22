@@ -11,26 +11,36 @@
       "
     >
       <div class="row">
-        <h1 class="title">AULAS PARTICULARES DE INGLÊS & MENTORIA</h1 >
+        <h1 class="title">AULAS PARTICULARES DE INGLÊS & MENTORIA</h1>
+        <div style="padding: 5%;">
+          <img
+            class="img_mobile"
+            src="../assets/logo2.png"
+            alt=""
+            style="width: 50%"
+          />
+        </div>
+
         <div class="mainBox col-lg-6">
           <div class="card text">
-            <h3 style="margin-bottom: 3%; margin-top: 1%; font-size: 1.5rem;">
+            <h3 style="margin-bottom: 3%; margin-top: 1%; font-size: 1.5rem">
               Aprenda ou aprimore seu Inglês da melhor forma:
             </h3>
             <li>Aulas Particulares Ao Vivo</li>
             <li>Programa De Mentoria</li>
-            <li style="text-align: left;">Inglês Personalizado De Acordo <span>Com Sua Necessidade</span></li>
-            <li style="margin-bottom: 1%;text-align: left;">Inglês para viagens, Negócios e Etc</li>
+            <li style="text-align: left">
+              Inglês Personalizado De Acordo <span>Com Sua Necessidade</span>
+            </li>
+            <li style="margin-bottom: 1%; text-align: left">
+              Inglês para viagens, Negócios e Etc
+            </li>
           </div>
-          <button class="btn">Clique aqui para um plano de ação de Inglês específico para você </button>
+          <button class="btn">
+            Clique aqui para um plano de ação de Inglês específico para você
+          </button>
         </div>
         <div class="col-lg-6">
-          <img
-            class="img"
-            src="../assets/pana.png"
-            alt=""
-            style="width: 90%;"
-          />
+          <img class="img" src="../assets/pana.png" alt="" style="width: 90%" />
         </div>
       </div>
     </div>
@@ -64,7 +74,6 @@ export default {
   
   <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 
 .btn {
   margin-top: 5%;
@@ -110,7 +119,7 @@ export default {
   flex-direction: column;
 }
 
-.title{
+.title {
   font-weight: 600;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 8%;
@@ -119,34 +128,31 @@ export default {
 
 .card {
   padding: 5%;
-  background-color: #0077B6;
+  background-color: #0077b6;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
 }
 
 @media only screen and (max-width: 767px) {
-  .title{
+  .title {
     font-size: 1.5rem;
   }
 
   .text li {
-  margin-top: 2%;
-  font-size: .7rem;
+    margin-top: 2%;
+    font-size: 0.7rem;
+  }
+
+  .btn {
+    font-size: 12px;
+    margin-bottom: 3%;
+  }
+
 }
 
-.btn{
-  font-size: 12px;
-  margin-bottom: 3%;
-}
-
-
-}
-
-
-@media only screen and (min-width: 768px) and (max-width: 1024px){
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .navbar {
     display: none;
   }
 }
-
 </style>
