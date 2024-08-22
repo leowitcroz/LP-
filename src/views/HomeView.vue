@@ -46,6 +46,7 @@
     <SectionGlossarioView />
     <SectionTraducaoView />
     <SectionSobreMimView />
+    <SectionAvaliacoesView />
 
     <footer style="background-color: #005583">
       <p class="copyrights">
@@ -70,6 +71,7 @@ import SectionTraducaoView from "./SectionTraducaoView.vue";
 import SectionCursoView from "./SectionCursoView.vue";
 import SectionGlossarioView from "./SectionGlossarioView.vue";
 import SectionSobreMimView from "./SectionSobreMimView.vue";
+import SectionAvaliacoesView from "./SectionAvaliacoesView.vue";
 
 function scrollToSection(sectionId: string) {
   const section = document.getElementById(sectionId);
