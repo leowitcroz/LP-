@@ -14,6 +14,7 @@
       <div class="row">
         <div class="col-lg-6">
           <img
+            class="img"
             src="../assets/bro.png"
             alt=""
             style="width: 100%;"
@@ -73,8 +74,27 @@ export default {
   margin-top: 5%;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
-}
-.card-text{
   font-size: 20px;
 }
+
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    font-size: 13px;
+    padding: 5px;
+    margin-bottom: 3%;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .btn {
+    font-size: 10px;
+    margin-bottom: 3%;
+  }}
 </style>

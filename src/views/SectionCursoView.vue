@@ -51,7 +51,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="../assets/image1.png" alt="" style="width: 100%" />
+          <img class="img" src="../assets/image1.png" alt="" style="width: 100%" />
          
           <button class="btn">
             Clique aqui para mais informações sobre o curso
@@ -110,5 +110,25 @@ export default {
   color: white;
   font-size: 22px;
   text-align: left;
+}
+
+@media only screen and (max-width: 767px) {
+  .title{
+    font-size: 1.2rem;
+  }
+
+  .card{
+    font-size: 13px;
+  }
+
+.img{
+  display: none;
+}
+
+.btn{
+  font-size: 10px;
+  margin-bottom: 3%;
+}
+
 }
 </style>

@@ -74,6 +74,7 @@
           "
         >
           <img
+          class="img"
             src="../assets/profile.jpeg"
             alt=""
             style="
@@ -83,8 +84,8 @@
               border: 3px solid #8e44ad;
             "
           />
-          <div class="card" style="background-color: #3ca558; width: 70%; padding: 10px;margin-top: 7%;">
-           <h5 style="padding-top: 5px;"> Você me encontra nos canais abaixo:</h5>
+          <div class="card links " style="background-color: #3ca558; width: 70%; padding: 10px;margin-top: 7%;">
+           <h5 class="link_title" style="padding-top: 5px;"> Você me encontra nos canais abaixo:</h5>
            <ul style="text-align: left; margin-top: 5%;">
             <li><a style="color: whitesmoke;" href="https://www.linkedin.com/in/teachersimone/">https://www.linkedin.com/in/teachersimone/</a></li>
             <li><a style="color: whitesmoke;" href="https://www.instagram.com/sc_idiomas/">https://www.instagram.com/sc_idiomas/</a> </li>
@@ -136,9 +137,41 @@ export default {
   margin-top: 5%;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
-}
-.card-text {
   font-size: 18px;
   text-align: left;
 }
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    font-size: 13px;
+    padding: 5px;
+    margin-bottom: 3%;
+  }
+
+  .img {
+    width: 100% !important;
+  }
+
+  .btn {
+    font-size: 10px;
+    margin-bottom: 3%;
+  }
+
+  .links{
+    width: 100% !important;
+    font-size: 14px;
+  }
+
+  .link_title{
+    font-size: 20px;
+  }
+
+}
+
+  
+
 </style>

@@ -14,18 +14,19 @@
         <h1 class="title">AULAS PARTICULARES DE INGLÊS & MENTORIA</h1 >
         <div class="mainBox col-lg-6">
           <div class="card text">
-            <h3 style="margin-bottom: 3%; margin-top: 1%; font-size: 1.8rem;">
-              Aprenda ou aprimore seu Inglês da<br> melhor forma:
+            <h3 style="margin-bottom: 3%; margin-top: 1%; font-size: 1.5rem;">
+              Aprenda ou aprimore seu Inglês da melhor forma:
             </h3>
             <li>Aulas Particulares Ao Vivo</li>
             <li>Programa De Mentoria</li>
-            <li style="text-align: left;">Inglês Personalizado De Acordo<br><span style="margin-left: 9%;">Com Sua Necessidade</span></li>
-            <li style="margin-bottom: 1%">Inglês para viagens, Negócios e Etc</li>
+            <li style="text-align: left;">Inglês Personalizado De Acordo <span>Com Sua Necessidade</span></li>
+            <li style="margin-bottom: 1%;text-align: left;">Inglês para viagens, Negócios e Etc</li>
           </div>
           <button class="btn">Clique aqui para um plano de ação de Inglês específico para você </button>
         </div>
         <div class="col-lg-6">
           <img
+            class="img"
             src="../assets/pana.png"
             alt=""
             style="width: 90%;"
@@ -94,12 +95,11 @@ export default {
   flex-direction: column;
   justify-content: left;
   align-items: baseline;
-
   margin-top: 5%;
 }
 .text li {
   margin-top: 2%;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .mainBox {
@@ -113,7 +113,7 @@ export default {
 .title{
   font-weight: 600;
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin-top: 6%;
+  margin-top: 8%;
   color: rgb(51, 51, 51);
 }
 
@@ -123,4 +123,33 @@ export default {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
 }
+
+@media only screen and (max-width: 767px) {
+  .title{
+    font-size: 1.5rem;
+  }
+
+  .text li {
+  margin-top: 2%;
+  font-size: .75rem;
+}
+
+.btn{
+  font-size: 10px;
+  margin-bottom: 3%;
+}
+
+.img{
+  display: none;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .navbar {
+    display: none;
+  }
+}
+
 </style>

@@ -2,31 +2,63 @@
   <div>
     <nav class="navbar">
       <div class="container-fluid" style="background-color: #005583">
-        <ul>
-          <li>
-            <a @click="scrollToSection('sectionOne')"
-              >AULAS PARTICULARES DE INGLÊS
-            </a>
-          </li>
-          <li><a @click="scrollToSection('sectionTwo')">PROGRAMAS DE ACELERAÇÃO DE INGLÊS</a></li>
-          <li><a @click="scrollToSection('sectionFour')">INGLÊS PARA PROFISSIONAIS DA INDÚSTRIA FARMACÊUTICA </a></li>
-          <li><a @click="scrollToSection('sectionFive')">GLOSSÁRIO DE INGLÊS </a></li>
-          <li><a @click="scrollToSection('sectionThree')">TRADUÇÃO </a></li>
-        </ul>
-        <img width="5%" src="../assets/Logo_.png" alt="" style="margin-top: 7px; margin-right: 10px; margin-bottom: 7px;">
+        <div class="row">
+          <div class="col-11" style="display: flex; justify-content: center;">
+            <ul>
+              <li>
+                <a @click="scrollToSection('sectionOne')"
+                  >AULAS PARTICULARES DE INGLÊS
+                </a>
+              </li>
+              <li>
+                <a @click="scrollToSection('sectionTwo')"
+                  >PROGRAMAS DE ACELERAÇÃO DE INGLÊS</a
+                >
+              </li>
+              <li>
+                <a @click="scrollToSection('sectionFour')"
+                  >INGLÊS PARA PROFISSIONAIS DA INDÚSTRIA FARMACÊUTICA
+                </a>
+              </li>
+              <li>
+                <a @click="scrollToSection('sectionFive')"
+                  >GLOSSÁRIO DE INGLÊS
+                </a>
+              </li>
+              <li><a @click="scrollToSection('sectionThree')">TRADUÇÃO </a></li>
+            </ul>
+          </div>
+          <div class="col-1">
+            <img
+              width="70%"
+              src="../assets/Logo.png"
+              alt=""
+              style="margin-top: 7px; margin-right: 10px; margin-bottom: 7px"
+            />
+          </div>
+        </div>
       </div>
     </nav>
 
     <SectionHomeView />
     <SectionCursoView />
     <SectionAceleracaoView />
-    <SectionGlossarioView/>
+    <SectionGlossarioView />
     <SectionTraducaoView />
-    <SectionSobreMimView/>
+    <SectionSobreMimView />
 
     <footer style="background-color: #005583">
-      <p class="copyrights" >Icon made by Pixel perfect from <a href="https://storyset.com/work">Work illustrations by Storyset</a></p>
-      <p class="copyrights" ><a href="https://www.freepik.com/free-vector/tiny-pharmacist-with-pills-vitamins-flat-vector-illustration-doctors-writing-prescriptions-antibiotics-working-together-helping-patients-cure-pharmacy-business-drugstore-concept_24644990.htm#query=pharmacy%20illustration&position=9&from_view=keyword&track=ais_hybrid&uuid=a399f5fb-3c8c-4c54-93d9-8cc26387ac94">Image by pch.vector</a> on Freepik</p>
+      <p class="copyrights">
+        Icon made by Pixel perfect from
+        <a href="https://storyset.com/work">Work illustrations by Storyset</a>
+      </p>
+      <p class="copyrights">
+        <a
+          href="https://www.freepik.com/free-vector/tiny-pharmacist-with-pills-vitamins-flat-vector-illustration-doctors-writing-prescriptions-antibiotics-working-together-helping-patients-cure-pharmacy-business-drugstore-concept_24644990.htm#query=pharmacy%20illustration&position=9&from_view=keyword&track=ais_hybrid&uuid=a399f5fb-3c8c-4c54-93d9-8cc26387ac94"
+          >Image by pch.vector</a
+        >
+        on Freepik
+      </p>
     </footer>
   </div>
 </template>
@@ -82,13 +114,37 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-footer{
+footer {
   padding: 1%;
 }
 
-.copyrights{
-  margin: 0!important;
+.copyrights {
+  margin: 0 !important;
   color: whitesmoke;
 }
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .navbar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1420px){
+
+nav ul li a {
+text-decoration: none;
+color: white !important  ;
+font-weight: bold;
+font-size: 12px;
+}
+}
 </style>
+
   
