@@ -131,11 +131,11 @@ export default {
 
   .text li {
   margin-top: 2%;
-  font-size: .75rem;
+  font-size: .7rem;
 }
 
 .btn{
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 3%;
 }
 

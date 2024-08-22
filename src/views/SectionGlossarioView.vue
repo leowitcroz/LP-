@@ -15,13 +15,16 @@
       <div class="row">
         <h1 class="title">GLOSSÁRIO – INGLÊS PARA INDÚSTRIA FARMACÊUTICA</h1>
         <div class="mainBox col-lg-6">
-          <img src="../assets/tiny.png" alt="" style="width: 100%" />
+          <img class="img" src="../assets/tiny.png" alt="" style="width: 100%" />
         </div>
         <div class="col-lg-6">
           <div class="card text">
             <p>
               Que tal um e-book no formato de glossário com
-              <b>todos os termos importantes da indústria farmacêutica em Inglês?</b>
+              <b
+                >todos os termos importantes da indústria farmacêutica em
+                Inglês?</b
+              >
             </p>
             <p>Parece algo bom demais para ser verdade, não é?!</p>
             <p>
@@ -95,7 +98,7 @@ export default {
   flex-direction: column;
   justify-content: left;
   text-align: left;
-  font-size: 20px; 
+  font-size: 20px;
   margin-top: 15%;
 }
 
@@ -121,5 +124,28 @@ export default {
   background-color: #8e44ad;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    font-size: 13px;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .btn {
+    font-size: 10px;
+    margin-bottom: 3%;
+  }
+
+  .text{
+    margin-top: 0%;
+  }
 }
 </style>
