@@ -167,7 +167,7 @@ export default {
   }
 
   .link_title{
-    font-size: 18px;
+    font-size: 17px;
   }
 
 }
