@@ -29,14 +29,6 @@
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
           <div class="card">
-            <img src="../assets/Dep 4.png" alt="" />
-          </div>
-        </div>
-        <div
-          class="col-lg-12"
-          style="display: flex; justify-content: center; margin-bottom: 2%"
-        >
-          <div class="card">
             <img class="img_" src="../assets/Dep 1.png" alt="" />
           </div>
         </div>

@@ -24,15 +24,15 @@
         <div class="mainBox col-lg-6">
           <div class="card text">
             <h3 style="margin-bottom: 3%; margin-top: 1%; font-size: 1.5rem">
-              Aprenda ou aprimore seu Inglês da melhor forma:
+              Aprenda ou aprimore seu inglês da melhor forma:
             </h3>
-            <li>Aulas Particulares Ao Vivo</li>
-            <li>Programa De Mentoria</li>
+            <li>Aulas particulares ao vivo</li>
+            <li>Programa de mentoria</li>
             <li style="text-align: left">
-              Inglês Personalizado De Acordo <span>Com Sua Necessidade</span>
+              Inglês personalizado de acordo <span>com sua necessidade</span>
             </li>
             <li style="margin-bottom: 1%; text-align: left">
-              Inglês para viagens, Negócios e Etc
+              Inglês para viagens, negócios e etc
             </li>
           </div>
           <button class="btn">
