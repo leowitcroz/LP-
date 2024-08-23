@@ -41,7 +41,7 @@
       </div>
       <button class="btn">
         <a
-          href=" https://wa.me/5511973741976?text=Tenho%20interesse%20no%20curso%20de%20inglês%20para%20indústria%20farmacêutica"
+          href="https://wa.me/5511973741976?text=Quero%20dar%20um%20UP%20no%20meu%20INGLÊS"
           >Clique aqui para saber mais</a
         >
       </button>

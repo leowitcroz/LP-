@@ -54,7 +54,7 @@
           <img
             class="img"
             src="../assets/image1.png"
-            alt=""
+            alt="image"
             style="width: 100%"
           />
 

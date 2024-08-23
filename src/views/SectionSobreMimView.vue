@@ -74,9 +74,9 @@
           "
         >
           <img
-          class="img"
+            class="img"
             src="../assets/profile.jpeg"
-            alt=""
+            alt="image"
             style="
               width: 70%;
               margin-top: 4%;
@@ -84,14 +84,41 @@
               border: 3px solid #8e44ad;
             "
           />
-          <div class="card links " style="background-color: #3ca558; width: 70%; padding: 10px;margin-top: 7%;">
-           <h5 class="link_title" style="padding-top: 5px;"> Você me encontra nos canais abaixo:</h5>
-           <ul style="text-align: left; margin-top: 5%;">
-            <li><a style="color: whitesmoke;" href="https://www.linkedin.com/in/teachersimone/">https://www.linkedin.com/in/teachersimone/</a></li>
-            <li><a style="color: whitesmoke;" href="https://www.instagram.com/sc_idiomas/">https://www.instagram.com/sc_idiomas/</a> </li>
-            <li>WhatsApp: (11) 97374-1976</li>
-            <li>sc.inglespanhol@hotmail.com</li>
-           </ul>
+          <div
+            class="card links"
+            style="
+              background-color: #3ca558;
+              width: 70%;
+              padding: 10px;
+              margin-top: 7%;
+            "
+          >
+            <h5 class="link_title" style="padding-top: 5px">
+              Você me encontra nos canais abaixo:
+            </h5>
+            <ul style="text-align: left; margin-top: 5%">
+              <li>
+                <a
+                  class="link"
+                  href="https://www.linkedin.com/in/teachersimone/"
+                  >https://www.linkedin.com/in/teachersimone/</a
+                >
+              </li>
+              <li>
+                <a class="link" href="https://www.instagram.com/sc_idiomas/"
+                  >https://www.instagram.com/sc_idiomas/</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link"
+                  href="https://wa.me/5511973741976
+"
+                  >WhatsApp: (11) 97374-1976</a
+                >
+              </li>
+              <li>sc.inglespanhol@hotmail.com</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -141,6 +168,15 @@ export default {
   text-align: left;
 }
 
+.link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 767px) {
   .title {
     font-size: 1.2rem;
@@ -161,17 +197,13 @@ export default {
     margin-bottom: 3%;
   }
 
-  .links{
+  .links {
     width: 100% !important;
     font-size: 14px;
   }
 
-  .link_title{
+  .link_title {
     font-size: 17px;
   }
-
 }
-
-  
-
 </style>

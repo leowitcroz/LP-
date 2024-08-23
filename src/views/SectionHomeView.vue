@@ -16,7 +16,7 @@
           <img
             class="img_mobile"
             src="../assets/logo2.png"
-            alt=""
+            alt="image"
             style="width: 50%"
           />
         </div>
@@ -37,7 +37,8 @@
           </div>
           <button class="btn">
             <a
-              href="https://wa.me/5511973741976?text=Tenho%20interesse%20no%20curso%20de%20inglês%20para%20indústria%20farmacêutica
+              href="https://wa.me/5511973741976?text=Tenho%20interesse/aprimorar%20meu%20INGLÊS
+
 "
               >Clique aqui para um plano de ação de Inglês específico para
               você</a
@@ -45,7 +46,12 @@
           </button>
         </div>
         <div class="col-lg-6">
-          <img class="img" src="../assets/pana.png" alt="" style="width: 90%" />
+          <img
+            class="img"
+            src="../assets/pana.png"
+            alt="image"
+            style="width: 90%"
+          />
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
           <div class="card">
-            <img src="../assets/Dep 2.png" alt="" />
+            <img src="../assets/Dep 2.png" alt="depoimento" />
           </div>
         </div>
 
@@ -21,7 +21,7 @@
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
           <div class="card">
-            <img src="../assets/Dep 3.png" alt="" />
+            <img src="../assets/Dep 3.png" alt="depoimento" />
           </div>
         </div>
         <div
@@ -29,7 +29,7 @@
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
           <div class="card">
-            <img class="img_" src="../assets/Dep 1.png" alt="" />
+            <img class="img_" src="../assets/Dep 1.png" alt="depoimento" />
           </div>
         </div>
         <div
@@ -37,7 +37,7 @@
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
           <div class="card">
-            <img src="../assets/Dep 4.png" alt="" />
+            <img src="../assets/Dep 4.png" alt="depoimento" />
           </div>
         </div>
         <div
@@ -45,7 +45,7 @@
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
           <div class="card" >
-            <img src="../assets/elogio.jpeg" class="img_" alt="">
+            <img src="../assets/elogio.jpeg" class="img_" alt="depoimento">
           </div>
         </div>
       </div>
