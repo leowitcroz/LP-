@@ -30,11 +30,6 @@
                 >
                 <a @click="scrollToSection('sectionFive')"> GLOSSÁRIO</a>
               </li>
-              <li>
-                <a @click="scrollToSection('sectionFive')"
-                  >GLOSSÁRIO DE INGLÊS
-                </a>
-              </li>
               <li><a @click="scrollToSection('sectionThree')">TRADUÇÃO </a></li>
             </ul>
           </div>
