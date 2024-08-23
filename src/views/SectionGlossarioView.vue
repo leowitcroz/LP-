@@ -18,7 +18,7 @@
           <img
             class="img"
             src="../assets/tiny.png"
-            alt=""
+            alt="image"
             style="width: 100%"
           />
         </div>

@@ -13,7 +13,7 @@
     >
       <div class="row">
         <div class="col-lg-6">
-          <img class="img" src="../assets/bro.png" alt="" style="width: 100%" />
+          <img class="img" src="../assets/bro.png" alt="image" style="width: 100%" />
         </div>
         <div class="col-lg-6" style="margin-top: 3%">
           <h1 class="title">TRADUÇÕES & VERSÕES</h1>
