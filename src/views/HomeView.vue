@@ -116,7 +116,7 @@ nav ul li a {
   text-decoration: none;
   color: white !important  ;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 nav ul li a:hover {
@@ -154,7 +154,7 @@ footer {
     text-decoration: none;
     color: white !important  ;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 </style>
