@@ -12,8 +12,8 @@
     >
       <div class="row">
         <h1 class="title">AULAS PARTICULARES DE INGLÊS & MENTORIA</h1>
-        <div class="mobile" style="padding: 5%;">
-          <img 
+        <div class="mobile" style="padding: 5%">
+          <img
             class="img_mobile"
             src="../assets/logo2.png"
             alt=""
@@ -36,7 +36,12 @@
             </li>
           </div>
           <button class="btn">
-            Clique aqui para um plano de ação de Inglês específico para você
+            <a
+              href="https://wa.me/5511973741976?text=Tenho%20interesse%20no%20curso%20de%20inglês%20para%20indústria%20farmacêutica
+"
+              >Clique aqui para um plano de ação de Inglês específico para
+              você</a
+            >
           </button>
         </div>
         <div class="col-lg-6">
@@ -89,6 +94,10 @@ export default {
   text-decoration: none;
   text-shadow: 0px 1px 0px #3d768a;
 }
+.btn a {
+  color: whitesmoke;
+  text-decoration: none;
+}
 .btn:hover {
   text-decoration: underline;
   background-color: #3ca558;
@@ -98,10 +107,12 @@ export default {
   position: relative;
   top: 1px;
 }
-.img_mobile{
+.img_mobile {
   display: none;
 }
-.mobile{display: none;}
+.mobile {
+  display: none;
+}
 
 .text {
   display: flex;
@@ -151,7 +162,6 @@ export default {
     font-size: 12px;
     margin-bottom: 3%;
   }
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {

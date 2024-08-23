@@ -26,7 +26,7 @@
             flex-direction: column;
           "
         >
-          <div class="card" style="margin-top: 10%;">
+          <div class="card" style="margin-top: 10%">
             <p class="card-text">
               O CURSO DE INGLÊS PARA INDÚSTRIA FARMACÊUTICA tem como objetivo
               proporcionar aos profissionais do setor as habilidades necessárias
@@ -51,10 +51,17 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img class="img" src="../assets/image1.png" alt="" style="width: 100%" />
-         
+          <img
+            class="img"
+            src="../assets/image1.png"
+            alt=""
+            style="width: 100%"
+          />
+
           <button class="btn">
-            Clique aqui para mais informações sobre o curso
+            <a href="https://chk.eduzz.com/2291402">
+              Clique aqui para mais informações sobre o curso</a
+            >
           </button>
         </div>
       </div>
@@ -92,6 +99,11 @@ export default {
   padding: 13px 32px;
   text-decoration: none;
 }
+
+.btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
 .btn:hover {
   text-decoration: underline;
   background-color: #3ca558;
@@ -113,18 +125,17 @@ export default {
 }
 
 @media only screen and (max-width: 767px) {
-  .title{
+  .title {
     font-size: 1.2rem;
   }
 
-  .card{
+  .card {
     font-size: 13px;
   }
 
-.btn{
-  font-size: 10px;
-  margin-bottom: 3%;
-}
-
+  .btn {
+    font-size: 10px;
+    margin-bottom: 3%;
+  }
 }
 </style>

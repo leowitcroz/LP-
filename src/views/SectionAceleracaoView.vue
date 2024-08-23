@@ -39,7 +39,12 @@
           </div>
         </div>
       </div>
-      <button class="btn">Clique aqui para saber mais</button>
+      <button class="btn">
+        <a
+          href=" https://wa.me/5511973741976?text=Tenho%20interesse%20no%20curso%20de%20inglês%20para%20indústria%20farmacêutica"
+          >Clique aqui para saber mais</a
+        >
+      </button>
     </div>
   </section>
 </template>
@@ -93,6 +98,11 @@ export default {};
   top: 1px;
 }
 
+.btn a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 767px) {
   .title {
     font-size: 1.2rem;
@@ -103,7 +113,6 @@ export default {};
     padding: 5px;
     margin-bottom: 3%;
   }
-
 
   .btn {
     font-size: 10px;

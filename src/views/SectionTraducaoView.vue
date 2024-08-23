@@ -13,15 +13,9 @@
     >
       <div class="row">
         <div class="col-lg-6">
-          <img
-            class="img"
-            src="../assets/bro.png"
-            alt=""
-            style="width: 100%;"
-          />
-          
+          <img class="img" src="../assets/bro.png" alt="" style="width: 100%" />
         </div>
-        <div class="col-lg-6" style="margin-top: 3%;">
+        <div class="col-lg-6" style="margin-top: 3%">
           <h1 class="title">TRADUÇÕES & VERSÕES</h1>
           <div class="box">
             <div class="card" v-for="(item, key) in card_texts" :key="key">
@@ -30,6 +24,12 @@
               </p>
             </div>
           </div>
+          <button class="btn">
+            <a
+              href="https://wa.me/5511973741976?text=Tenho%20interesse%20em%20orçamento%20de%20tradução/versão"
+              >Clique aqui para saber mais</a
+            >
+          </button>
         </div>
       </div>
     </div>
@@ -67,16 +67,41 @@ export default {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 6%;
 }
+.btn {
+  margin-top: 3%;
+  background-color: #34a853;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+}
+.btn:hover {
+  text-decoration: underline;
+  background-color: #3ca558;
+  color: #ffffff;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.btn a {
+  color: whitesmoke;
+  text-decoration: none;
+}
 
 .card {
   padding: 3%;
-  background-color: #0077B6;
+  background-color: #0077b6;
   margin-top: 5%;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
   font-size: 20px;
 }
-
 
 @media only screen and (max-width: 767px) {
   .title {
@@ -89,9 +114,9 @@ export default {
     margin-bottom: 3%;
   }
 
-
   .btn {
     font-size: 10px;
     margin-bottom: 3%;
-  }}
+  }
+}
 </style>

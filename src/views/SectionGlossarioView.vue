@@ -38,7 +38,12 @@
             </p>
           </div>
           <button class="btn">
-            Reserve o seu e-book GLOSSÁRIO DE INGLÊS PARA INDÚSTRIA FARMACÊUTICA
+            <a
+              href="https://wa.me/5511973741976?text=Quero%20reservar%20meu%20e-book
+"
+              >Reserve o seu e-book GLOSSÁRIO DE INGLÊS PARA INDÚSTRIA
+              FARMACÊUTICA</a
+            >
           </button>
         </div>
       </div>
@@ -96,6 +101,11 @@ export default {
 .btn:active {
   position: relative;
   top: 1px;
+}
+
+.btn a {
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 .text {
