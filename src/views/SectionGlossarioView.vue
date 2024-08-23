@@ -13,9 +13,14 @@
       "
     >
       <div class="row">
-        <h1 class="title"><a class="link_1" href=""> INGLÊS PARA INDÚSTRIA FARMACÊUTICA</a>  & <a class="link_2" href="">GLOSSÁRIO</a> </h1>
+        <h1 class="title">GLOSSÁRIO DE INGLÊS PARA INDÚSTRIA FARMACÊUTICA</h1>
         <div class="mainBox col-lg-6">
-          <img class="img" src="../assets/tiny.png" alt="" style="width: 100%" />
+          <img
+            class="img"
+            src="../assets/tiny.png"
+            alt=""
+            style="width: 100%"
+          />
         </div>
         <div class="col-lg-6">
           <div class="card text">
@@ -28,12 +33,12 @@
             </p>
             <p>Parece algo bom demais para ser verdade, não é?!</p>
             <p>
-              Pois esse e-book GLOSSÁRIO já existe e você pode adquiri-lo
-              clicando no link abaixo:
+              Pois esse e-book GLOSSÁRIO está em elaboração e você já pode
+              reservá-lo clicando no link abaixo
             </p>
           </div>
           <button class="btn">
-            e-book GLOSSÁRIO DE TERMOS EM INGLÊS PARA INDÚSTRIA FARMACÊUTICA
+            Reserve o seu e-book GLOSSÁRIO DE INGLÊS PARA INDÚSTRIA FARMACÊUTICA
           </button>
         </div>
       </div>
@@ -102,25 +107,6 @@ export default {
   margin-top: 15%;
 }
 
-.link_1{
-  color: rgb(51, 51, 51);
-  text-decoration: none;
-}
-
-.link_1:hover{
-  text-decoration: underline;
-  color: #0077B6;
-}
-
-.link_2{
-  color: rgb(51, 51, 51);
-  text-decoration: none;
-}
-.link_2:hover{
-  color: #3ca558;
-  text-decoration: underline;
-}
-
 .mainBox {
   font-family: Georgia, "Times New Roman", Times, serif;
   display: flex;
@@ -159,7 +145,7 @@ export default {
     margin-bottom: 3%;
   }
 
-  .text{
+  .text {
     margin-top: 0%;
   }
 }

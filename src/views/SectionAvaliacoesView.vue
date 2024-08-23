@@ -5,13 +5,13 @@
       style="background-color: whitesmoke; padding: 4%"
     >
       <div class="row" style="display: flex; justify-content: space-around">
-        <h1 class="title">DEPOIMENTO DE ALUNOS</h1>
+        <h1 class="title">DEPOIMENTOS</h1>
 
         <div
           class="col-lg-12"
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
-          <div class="card" style="width: 60%">
+          <div class="card" style="width: 50%">
             <img src="../assets/Dep 2.png" alt="" />
           </div>
         </div>
@@ -20,7 +20,7 @@
           class="col-lg-12"
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
-          <div class="card" style="width: 60%">
+          <div class="card" style="width: 50%">
             <img src="../assets/Dep 3.png" alt="" />
           </div>
         </div>
@@ -28,8 +28,32 @@
           class="col-lg-12"
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
-          <div class="card" style="width: 60%">
+          <div class="card" style="width: 50%">
             <img src="../assets/Dep 4.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="col-lg-12"
+          style="display: flex; justify-content: center; margin-bottom: 2%"
+        >
+          <div class="card" style="width: 50%">
+            <img src="../assets/Dep 1.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="col-lg-12"
+          style="display: flex; justify-content: center; margin-bottom: 2%"
+        >
+          <div class="card" style="width: 50%">
+            <img src="../assets/Dep 4.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="col-lg-12"
+          style="display: flex; justify-content: center; margin-bottom: 2%"
+        >
+          <div class="card" style="width: 50%">
+            <img src="../assets/elogio.jpeg" alt="" />
           </div>
         </div>
       </div>

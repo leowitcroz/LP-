@@ -3,7 +3,7 @@
     <nav class="navbar">
       <div class="container-fluid" style="background-color: #005583">
         <div class="row">
-          <div class="col-11" style="display: flex; justify-content: center;">
+          <div class="col-11" style="display: flex; justify-content: center">
             <ul>
               <li>
                 <a @click="scrollToSection('sectionOne')"
@@ -19,6 +19,16 @@
                 <a @click="scrollToSection('sectionFour')"
                   >INGLÊS PARA PROFISSIONAIS DA INDÚSTRIA FARMACÊUTICA
                 </a>
+                <span
+                  style="
+                    text-decoration: none;
+                    color: white !important  ;
+                    font-weight: bold;
+                    font-size: 12px;
+                  "
+                  >&</span
+                >
+                <a @click="scrollToSection('sectionFive')"> GLOSSÁRIO</a>
               </li>
               <li>
                 <a @click="scrollToSection('sectionFive')"
@@ -51,10 +61,13 @@
     <footer style="background-color: #005583">
       <p class="copyrights">
         Icon made by Pixel perfect from
-        <a href="https://storyset.com/work" style="color: whitesmoke;">Work illustrations by Storyset</a>
+        <a href="https://storyset.com/work" style="color: whitesmoke"
+          >Work illustrations by Storyset</a
+        >
       </p>
       <p class="copyrights">
-        <a style="color: whitesmoke;"
+        <a
+          style="color: whitesmoke"
           href="https://www.freepik.com/free-vector/tiny-pharmacist-with-pills-vitamins-flat-vector-illustration-doctors-writing-prescriptions-antibiotics-working-together-helping-patients-cure-pharmacy-business-drugstore-concept_24644990.htm#query=pharmacy%20illustration&position=9&from_view=keyword&track=ais_hybrid&uuid=a399f5fb-3c8c-4c54-93d9-8cc26387ac94"
           >Image by pch.vector</a
         >
@@ -108,7 +121,7 @@ nav ul li a {
   text-decoration: none;
   color: white !important  ;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 nav ul li a:hover {
@@ -130,26 +143,24 @@ footer {
     display: none;
   }
 
-  .copyrights{
+  .copyrights {
     font-size: 10px;
   }
 }
 
-
-@media only screen and (min-width: 768px) and (max-width: 1024px){
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .navbar {
     display: none;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1420px){
-
-nav ul li a {
-text-decoration: none;
-color: white !important  ;
-font-weight: bold;
-font-size: 12px;
-}
+@media only screen and (min-width: 1024px) and (max-width: 1420px) {
+  nav ul li a {
+    text-decoration: none;
+    color: white !important  ;
+    font-weight: bold;
+    font-size: 10px;
+  }
 }
 </style>
 

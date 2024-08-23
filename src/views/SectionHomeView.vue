@@ -12,8 +12,8 @@
     >
       <div class="row">
         <h1 class="title">AULAS PARTICULARES DE INGLÊS & MENTORIA</h1>
-        <div style="padding: 5%;">
-          <img
+        <div class="mobile" style="padding: 5%;">
+          <img 
             class="img_mobile"
             src="../assets/logo2.png"
             alt=""
@@ -98,6 +98,10 @@ export default {
   position: relative;
   top: 1px;
 }
+.img_mobile{
+  display: none;
+}
+.mobile{display: none;}
 
 .text {
   display: flex;
