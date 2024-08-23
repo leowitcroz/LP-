@@ -11,7 +11,7 @@
           class="col-lg-12"
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
-          <div class="card" style="width: 50%">
+          <div class="card">
             <img src="../assets/Dep 2.png" alt="" />
           </div>
         </div>
@@ -20,7 +20,7 @@
           class="col-lg-12"
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
-          <div class="card" style="width: 50%">
+          <div class="card">
             <img src="../assets/Dep 3.png" alt="" />
           </div>
         </div>
@@ -28,7 +28,7 @@
           class="col-lg-12"
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
-          <div class="card" style="width: 50%">
+          <div class="card">
             <img src="../assets/Dep 4.png" alt="" />
           </div>
         </div>
@@ -36,15 +36,15 @@
           class="col-lg-12"
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
-          <div class="card" style="width: 50%">
-            <img src="../assets/Dep 1.png" alt="" />
+          <div class="card">
+            <img class="img_" src="../assets/Dep 1.png" alt="" />
           </div>
         </div>
         <div
           class="col-lg-12"
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
-          <div class="card" style="width: 50%">
+          <div class="card">
             <img src="../assets/Dep 4.png" alt="" />
           </div>
         </div>
@@ -52,8 +52,8 @@
           class="col-lg-12"
           style="display: flex; justify-content: center; margin-bottom: 2%"
         >
-          <div class="card" style="width: 50%">
-            <img src="../assets/elogio.jpeg" alt="" />
+          <div class="card" >
+            <img src="../assets/elogio.jpeg" class="img_" alt="">
           </div>
         </div>
       </div>
@@ -86,6 +86,7 @@ export default {};
   background-color: #0077b6;
   color: whitesmoke;
   font-size: 22px;
+  width: 50%;
 }
 
 .btn {
@@ -99,6 +100,9 @@ export default {};
   font-size: 20px;
   font-weight: bold;
   padding: 13px 32px;
+}
+.img_ {
+  height: 340px;
 }
 .btn:hover {
   text-decoration: underline;
@@ -119,12 +123,16 @@ export default {};
     font-size: 13px;
     padding: 5px;
     margin-bottom: 3%;
+    width: 100%;
   }
 
 
   .btn {
     font-size: 10px;
     margin-bottom: 3%;
+  }
+  .img_ {
+    height: 200px;
   }
 }
 </style>
